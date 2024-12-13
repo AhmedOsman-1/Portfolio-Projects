@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="font-poppins bg-black h-screen relative">
+    <div class="flex items-center justify-center circle h-[520px] w-[400px] bg-[#eb26fd]/80 rounded-[100%] absolute z-1 blur-[90px] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+    </div>
+    <div class="container">
+        <!-- Navbar start -->
+        <nav class="navbar flex flex-col lg:flex-row md:flex-row justify-between items-center ">
+        <a class="font-bold text-[#ff5404]/70  lg:ml-6 ml-0" href="#">Soft UI</a>
+        <div class="flex gap-6 mt-2 md:mt-0">
+            <ul ><a class="text-sm hover:underline text-white/70" href="#">Dashboard</a></ul>
+            <ul><a class="text-sm hover:underline text-white/70" href="#">Profile</a></ul>
+            <ul><a class="text-sm hover:underline text-white/70" href="#">Sing Up</a></ul> <ul><a class="text-sm hover:underline text-white/70" href="#">Sing In</a></ul>
+        </div>
+        <div class="flex flex-col md:flex-row lg:flex-row gap-4 md:mt-0 lg:mt-0 mt-6">
+            <button class="text-sm px-9 py-2  border-[1px] border-[#ff5404]/20 text-[#ff5404] p-4 rounded-[10px] font-bold text-opacity-80 shadow-md hover:scale-105 transition duration-300">Online Builder
+            </button>
+            <button class="btn-primary">Online Builder
+            </button>
+        </div>
+        </nav>
+        <!-- Navbar end -->
+
+        <!-- Form start -->
+        <div class="md:flex items-center justify-between h-[490px] w-[800px] bg-cyan-100/20 border-[0.5px] border-white/10 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-lg container shadow-xl shadow-white/10">
+            <div class=" flex">
+            <!-- Text start --> 
+            <div class="md:w-1/2 w-full p-2 flex flex-col gap-2">
+                <h2 class="bg-gradient-to-r from-[#b766c7] to-[#2badd4] inline-block text-transparent bg-clip-text font-bold  font-poppins text-[35px] text-center hover:transition-all duration-300 hover:scale-105"> Welcome back</h2>
+                <p class="text-white/60 text-sm text-center hover:transition-all duration-300 hover:scale-105">Enter your email and password to sign in.</p>
+                <div class="flex justify-center">
+                <form class="flex flex-col gap-2 mt-8 border-t border-white/20 " action="">
+                    <label class="text-sm text-white/60 p-2 rounded-[20px] pl-6" for="Email" id="email">Email</label>
+                    <input class="text-sm  p-2 rounded-[10px] pl-6 bg-black/30 border-[.2px] border-black/10 shadow-md" type="text" id="email" placeholder="Email Address">
+                    <label  class="text-sm  p-2 rounded-[10px] pl-6 text-white/60"for="password" id="password">Password</label>
+                    <input class="text-sm  p-2 rounded-[10px] pl-6 bg-black/30 border-[.2px] border-black/10 shadow-md" type="password" placeholder="Password">
+                    <button class="text-sm px-9 py-2  border-[1px] border-[#ff5404]/20 text-black p-4 rounded-[10px] font-bold text-opacity-90 shadow-md bg-white/70 hover:scale-105 transition duration-300 mt-6">Login</button>
+                </form>
+            </div>
+            <div class="mt-4 grid grid-cols-3 items-center">
+                <hr class="border border-white/20">
+                <p class="text-center text-white/70">OR</p>
+                <hr class="border border-white/20">
+            </div>
+            <button class="text-sm px-9 py-2  border-[1px] border-[#ff5404]/20 text-[#e4e2e4] p-4 rounded-[10px] font-bold text-opacity-80 shadow-lg hover:scale-105 transition duration-300 flex justify-center sm:mx-20 md:mx-2 mx-40">
+                Singup
+            </button>
+            </div>
+            <!-- Text end -->
+            <!-- img -->
+            <div class="w-1/2  p-4 md:block hidden">
+                <img class="rounded-lg shadow-lg opacity-70 hover:transition duration-300 hover:scale-105"src="/img/3d robot.jpg" alt="">
+            </div>
+            <!-- img end -->
+        </div>
+        </div>
+        <!-- Form end -->
+    </div>
+    </div>
+</body>
+</html>
